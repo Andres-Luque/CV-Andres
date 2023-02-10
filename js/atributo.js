@@ -1,3 +1,11 @@
-var miVariable;
-let nombre;
-const IVA = 1.21;
+
+
+document.getElementById("boton_color").addEventListener("click", function() {
+    document.body.style.backgroundColor = "#7FCA1A";
+    
+});
+
+document.getElementById("boton_default").addEventListener("click", function() {
+    document.body.style.backgroundColor = "#6CB5EA";
+    
+});

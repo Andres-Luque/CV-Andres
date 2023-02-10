@@ -1,7 +1,9 @@
 
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+     
 }
+
 
 .c_contenedor {
   padding: 3px;
@@ -9,12 +11,12 @@
 }
 
 .c_nombre {
-  background-color: rgba(94, 196, 196, 0.507);
-  color: rgb(80, 79, 79);
+  color: rgb(78, 114, 148);
 }
 
 .rdatos {
-  color: rgb(78, 114, 148);  
+  color: rgb(78, 114, 148);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .cdatos {
