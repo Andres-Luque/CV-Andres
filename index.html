@@ -1,209 +1,236 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css">
-    <title>CV Andres</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  </head>
-  <body>
 
-    
-    <button type="button" id="boton_color">Tema 1</button>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Curriculum Vitae</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
 
-    <button type="button" id="boton_default">Tema 2</button>
-    
-    <script src="js/atributo.js"></script>
-    
-    <div class="container.fluid text-center c_nombre c_contenedor" >
-      <div class="row align-items-center">
-        <div class="col-md-6 h1 col-12 h3"><h1>ANDRES LUQUE</h1></div>
-        <div class="col-md-6 col-12"><img src="imagen/9-si-foto-cv.png" width="200" height="200" alt="Foto carnet"></div>
+<body>
+
+  <div>
+    <button id="btnTema1">Click Tema 1</button>
+    <button id="btnTema2" >Click Tema 2</button>
+    <button id="btnRestablecer">Click Restablecer</button>
+  </div>
+
+  <script src="js/temas.js"></script>
+
+  <div class="container.fluid text-center c_nombre c_contenedor">
+    <div class="row align-items-center">
+      <div class="col-md-6 h1 col-12 h3">
+        <h1>ANDRES LUQUE</h1>
+      </div>
+      <div class="col-md-6 col-12"><img src="imagen/9-si-foto-cv.png" width="200" height="200" alt="Foto carnet"></div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container.fluid p-3">
+    <div class="row">
+      <nav>
+        <h1>Navegar por el contenido</h1>
+        <a class="p-3 text-black" href="#datos-personales">Datos Personales</a>
+        <a class="p-3 text-black" href="#objetivo">Objetivo</a>
+        <a class="p-3 text-black" href="#experiencia">Experiencia</a>
+        <a class="p-3 text-black" href="#estudios">Estudios</a>
+        <a class="p-3 text-black" href="#habilidades">Habilidades</a>
+      </nav>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container.fluid c_contenedor">
+    <div class="row rdatos">
+      <div class="col"><a name="datos-personales">
+          <h3 id="datos-personales">Datos Personales</h3>
+        </a></div>
+    </div>
+    <div class="row">
+      <div class="col-xl-3 col-md-6 col-12 h5 cdatos">Correo</div>
+      <div class="col-xl-3 col-md-6 col-12 h5 ">andres.luque@gmail.com</div>
+      <div class="col-xl-3 col-md-6 col-12 h5 cdatos">Celular</div>
+      <div class="col-xl-3 col-md-6 col-12 h5 ">15-X1X1-X5X8</div>
+      <div class="col-xl-3 col-md-6 col-12 h5 cdatos">Nacionalidad</div>
+      <div class="col-xl-3 col-md-6 col-12 h5 ">Argentino</div>
+      <div class="col-xl-3 col-md-6 col-12 h5 cdatos">Provincia</div>
+      <div class="col-xl-3 col-md-6 col-12 h5 ">Buenos Aires</div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container.fluid c_contenedor">
+    <div class="row rdatos">
+      <div class="col"><a name="objetivo">
+          <h3 id="id-objetivo">Objetivo</h3>
+        </a></div>
+    </div>
+    <div>
+      <div class="col">
+        <p><strong>En la actualidad me encuentro cursando argentina programa 4.0.
+            Busco desarrollar una app para consumir datos del sistema de la empresa,
+            con el fin de analizar la informacion para la toma de decisiones.</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container.fluid c_contenedor">
+
+    <div class="row rdatos">
+      <div class="col">
+        <a name="experiencia"><h3>Experiencia</h3></a>
       </div>
     </div>
 
     <hr>
 
-    <div class="container.fluid p-3">
-      <div class="row" >
-        <nav>Navegar por el contenido: 
-          <a class="p-3 text-black" href="#datos-personales">Datos Personales</a>
-          <a class="p-3 text-black" href="#objetivo">Objetivo</a>
-          <a class="p-3 text-black" href="#experiencia">Experiencia</a>
-          <a class="p-3 text-black" href="#estudios">Estudios</a>
-          <a class="p-3 text-black" href="#habilidades">Habilidades</a>
-        </nav>
-      </div>
-    </div>
+    <div class="row">
 
-    <hr>
-
-    <div class="container.fluid c_contenedor" >
-      <div class="row rdatos">
-        <div class="col"><a name="datos-personales"><h3 id="datos-personales" >Datos Personales</h3></a></div>
-      </div>
-      <div class="row">
-        <div class="col-xl-3 col-md-6 col-12 h5 cdatos">Correo</div>
-        <div class="col-xl-3 col-md-6 col-12 h5 ">andres.luque@gmail.com</div>
-        <div class="col-xl-3 col-md-6 col-12 h5 cdatos">Celular</div>
-        <div class="col-xl-3 col-md-6 col-12 h5 ">15-X1X1-X5X8</div>
-        <div class="col-xl-3 col-md-6 col-12 h5 cdatos">Nacionalidad</div>
-        <div class="col-xl-3 col-md-6 col-12 h5 ">Argentino</div>
-        <div class="col-xl-3 col-md-6 col-12 h5 cdatos">Provincia</div>
-        <div class="col-xl-3 col-md-6 col-12 h5 ">Buenos Aires</div>
-      </div>
-    </div>
-
-    <hr>
-
-    <div class="container.fluid c_contenedor" >
-      <div class="row rdatos">
-        <div class="col"><a name="objetivo"><h3 id="id-objetivo" >Objetivo</h3></a></div>
-      </div>
-      <div>
-        <div class="col"><p><strong>En la actualidad me encuentro cursando argentina programa 4.0. 
-          Busco desarrollar una app para consumir datos del sistema de la empresa, 
-          con el fin de analizar la informacion para la toma de decisiones.</strong></p>
-        </div>
-      </div>
-    </div>
-
-    <hr>
-
-    <div class="container.fluid c_contenedor" >
       
-      <div class="row rdatos">
-        <div class="col"><a name="experiencia"><h3>Experiencia</h3></a></div>
+      <div class="col-xl-3 col-md-6 col-12 h5 ">
+        <h4>Abril 2018 - Actualidad</h4>
+        <h5>Distribuidora de Productos Heladeria</h5>
+        <h6>(Distribucion-Logistica)</h6>
+        <ul>
+          <li>Facturacion</li>
+          <li>Analisis de Costos</li>
+          <li>Rutas: Control de conformes</li>
+          <li>Gestion de turnos de entrega</li>
+          <li>Datos: Estadisticas de flota</li>
+          <li>Datos: Estadisticas de productos</li>
+        </ul>
       </div>
 
-      <div class="row">
-
-        <div class="col-xl-3 col-md-6 col-12 h5 cdatos">abril 2018 - actualidad</div>
-        <div class="col-xl-3 col-md-6 col-12 h5 ">
-          <h5>Distribuidora de Productos Heladeria</h5>
-          <h6>(Distribucion-Logistica)</h6>
-          <ul>
-            <li>Facturacion</li>
-            <li>Analisis de Costos</li>
-            <li>Rutas: Control de conformes</li>
-            <li>Gestion de turnos de entrega</li>
-            <li>Datos: Estadisticas de flota</li>
-            <li>Datos: Estadisticas de productos</li>
-          </ul>
-        </div>
-
-        <div class="col-xl-3 col-md-6 col-12 h5 cdatos">abril 2010 - marzo 2018</div>
-        <div class="col-xl-3 col-md-6 col-12 h5 ">
-          <h5>Transportes Centros de Distribucion</h5>
-          <h6>(Fletes-Logistica)</h6>
-          <ul>
-            <li>Facturacion</li>
-            <li>Cuentas corrientes</li>
-            <li>Analisis de Costos</li>
-            <li>Rutas: Control de conformes</li>
-            <li>Gestion de turnos de entregas</li>
-            <li>Vencimientos de flota</li>
-            <li>Datos: Estadisticas de flota</li>
-          </ul>
-        </div>
-
-        <div class="col-xl-3 col-md-6 col-12 h5 cdatos">abril 2003 - marzo 2010</div>
-        <div class="col-xl-3 col-md-6 col-12 h5 ">
-          <h5>Distribuidora de Repuestos Automotor</h5>
-          <h6>(Burletes-Colisas-Automotor)</h6>
-          <ul>
-            <li>Facturacion</li>
-            <li>Cuentas corrientes</li>
-            <li>Analisis de Costos</li>
-            <li>Estadisticas de productos</li>
-            <li>Analisis de compra</li>
-          </ul>
-        </div>
-
-        <div class="col-xl-3 col-md-6 col-12 h5 cdatos">abril 1993 - marzo 2003</div>
-        <div class="col-xl-3 col-md-6 col-12 h5 ">
-          <h5>Fabrica de Repuestos Automotor</h5>
-          <h6>(Burletes-Colisas-Automotor)</h6>
-          <ul>
-            <li>Encargado sala de mezcla</li>
-            <li>Laboratorio: Ensayos de calidad</li>
-            <li>Control de stock</li>
-            <li>Estadisticas de fabricacion</li>
-            <li>Analisis de compra</li>
-          </ul>
-        </div>
+      <div class="col-xl-3 col-md-6 col-12 h5 ">
+        <h4>Abril 2010 - Marzo 2018</h4>
+        <h5>Transportes Centros de Distribucion</h5>
+        <h6>(Fletes-Logistica)</h6>
+        <ul>
+          <li>Facturacion</li>
+          <li>Cuentas corrientes</li>
+          <li>Analisis de Costos</li>
+          <li>Rutas: Control de conformes</li>
+          <li>Gestion de turnos de entregas</li>
+          <li>Vencimientos de flota</li>
+          <li>Datos: Estadisticas de flota</li>
+        </ul>
+      </div>
+     
+      <div class="col-xl-3 col-md-6 col-12 h5 ">
+        <h4>Abril 2003 - Marzo 2010</h4>
+        <h5>Distribuidora de Repuestos Automotor</h5>
+        <h6>(Burletes-Colisas-Automotor)</h6>
+        <ul>
+          <li>Facturacion</li>
+          <li>Cuentas corrientes</li>
+          <li>Analisis de Costos</li>
+          <li>Estadisticas de productos</li>
+          <li>Analisis de compra</li>
+        </ul>
       </div>
 
+      <div class="col-xl-3 col-md-6 col-12 h5 ">
+        <h4>Abril 1993 - Marzo 2003</h4>
+        <h5>Fabrica de Repuestos Automotor</h5>
+        <h6>(Burletes-Colisas-Automotor)</h6>
+        <ul>
+          <li>Encargado sala de mezcla</li>
+          <li>Laboratorio: Ensayos de calidad</li>
+          <li>Control de stock</li>
+          <li>Estadisticas de fabricacion</li>
+          <li>Analisis de compra</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+  <hr>
+
+  <div class="container.fluid c_contenedor">
+
+    <div class="row rdatos">
+      <div class="col"><a name="estudios">
+          <h3>Estudios</h3>
+        </a></div>
     </div>
 
     <hr>
 
-    <div class="container.fluid c_contenedor" >
+    <div class="row">
       
-      <div class="row rdatos">
-        <div class="col"><a name="estudios"><h3>Estudios</h3></a></div>
+      <div class="col-xl-3 col-md-6 col-12 h5 ">
+        <h4>Enero 2023 - Actualidad</h4>
+        <h5>Ministerio de Economia</h5>
+        <h6>Argentina programa 4.0</h6>
+        <h6>Primeros pasos desarrollo front-ent</h6>
       </div>
-
-      <div class="row">
-
-        <div class="col-xl-3 col-md-6 col-12 h5 cdatos">enero 2023 - actualidad</div>
-        <div class="col-xl-3 col-md-6 col-12 h5 ">
-          <h5>Ministerio de Economia</h5>
-          <h6>Argentina programa 4.0</h6>
-          <h6>Primeros pasos desarrollo front-ent</h6>
-        </div>
-            
-        <div class="col-xl-3 col-md-6 col-12 h5 cdatos">enero 2016 - diciembre 2017</div>
-        <div class="col-xl-3 col-md-6 col-12 h5 ">
-          <h5>Universidad de Tres de Febrero</h5>
-          <h6>Licenciatura en Administracion de Empresas</h6>
-          <h6>Primer año completo</h6>
-        </div>
-            
-        <div class="col-xl-3 col-md-6 col-12 h5 cdatos">enero 2001 - diciembre 2006</div>
-        <div class="col-xl-3 col-md-6 col-12 h5 ">
-          <h5>IFTS Nº1 - Palermo</h5>
-          <h6>Tecnico superior en Analisis de Sistemas</h6>          
-        </div>
-            
-        <div class="col-xl-3 col-md-6 col-12 h5 cdatos">enero 1987 - diciembre 1993</div>
-        <div class="col-xl-3 col-md-6 col-12 h5 ">
-          <h5>ENETO Nº 27 - Hipolito Yrigoyen</h5>
-          <h6>Tecnico quimico</h6>          
-        </div>
-
+      
+      <div class="col-xl-3 col-md-6 col-12 h5 ">
+        <h4>Enero 2016 - Diciembre 2018</h4>
+        <h5>Universidad de Tres de Febrero</h5>
+        <h6>Licenciatura en Administracion de Empresas</h6>
+        <h6>Primer año completo</h6>
+      </div>
+      
+      <div class="col-xl-3 col-md-6 col-12 h5 ">
+        <h4>Enero 2001 - Diciembre 2006</h4>
+        <h5>IFTS Nº1 - Palermo</h5>
+        <h6>Tecnico Superior en Analisis de Sistemas</h6>
+      </div>
+      
+      <div class="col-xl-3 col-md-6 col-12 h5 ">
+        <h4>Enero 1987 - Diciembre 1993</h4>
+        <h5>ENET Nº 27 - Hipolito Yrigoyen</h5>
+        <h6>Tecnico Quimico</h6>
       </div>
 
     </div>
 
-    <hr>
+  </div>
 
-    <div class="container.fluid c_contenedor" >
-      
-      <div class="row rdatos">
-        <div class="col"><a name="habilidades"><h3>Habilidades</h3></a></div>
-      </div>
+  <hr>
 
-      <div class="row">
+  <div class="container.fluid c_contenedor">
 
-        <div class="col-xl-3 col-md-6 col-12 h5">Tolerancia a la presión</div>
-                   
-        <div class="col-xl-3 col-md-6 col-12 h5">Actitud positiva</div>
-                    
-        <div class="col-xl-3 col-md-6 col-12 h5">Administración del tiempo</div>
-                   
-        <div class="col-xl-3 col-md-6 col-12 h5">Responsabilidad</div>
+    <div class="row rdatos">
+      <div class="col"><a name="habilidades">
+          <h3>Habilidades</h3>
+        </a></div>
+    </div>
 
-        <div class="col-xl-3 col-md-6 col-12 h5">Creatividad</div>
+    <div class="row">
 
-        <div class="col-xl-3 col-md-6 col-12 h5">Colaboración</div>
-        
-      </div>
+      <div class="col-xl-3 col-md-6 col-12 h5">Tolerancia a la presión</div>
+
+      <div class="col-xl-3 col-md-6 col-12 h5">Actitud positiva</div>
+
+      <div class="col-xl-3 col-md-6 col-12 h5">Administración del tiempo</div>
+
+      <div class="col-xl-3 col-md-6 col-12 h5">Responsabilidad</div>
+
+      <div class="col-xl-3 col-md-6 col-12 h5">Creatividad</div>
+
+      <div class="col-xl-3 col-md-6 col-12 h5">Colaboración</div>
 
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    
-  </body>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
