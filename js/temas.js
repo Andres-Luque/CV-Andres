@@ -1,4 +1,7 @@
 
+document.body.style.backgroundColor = "#F2F3F4";
+document.body.style.fontFamily = "Verdana", "sans-serif";
+
 document.getElementById("btnTema1").addEventListener("click", fTemaUno);
 document.getElementById("btnTema2").addEventListener("click", fTemaDos);
 document.getElementById("btnRestablecer").addEventListener("click", fRestablecer);
@@ -29,6 +32,6 @@ function fRestablecer() {
     //   document.getElementsByClassName("cDiv")[y].style.backgroundColor = "#EAC86C";
     // }
 
-    document.body.style.backgroundColor = "antiquewhite";
+    document.body.style.backgroundColor = "#F2F3F4";
 
 }

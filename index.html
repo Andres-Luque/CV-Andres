@@ -10,15 +10,31 @@
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="cBody">
 
   <div>
     <button id="btnTema1">Click Tema 1</button>
-    <button id="btnTema2" >Click Tema 2</button>
+    <button id="btnTema2">Click Tema 2</button>
     <button id="btnRestablecer">Click Restablecer</button>
   </div>
 
   <script src="js/temas.js"></script>
+
+  <hr>
+
+  <div class="container.fluid p-3">
+    <div class="row">
+      <nav>
+        <a class="p-3 text-black" href="#datos-personales">Datos Personales</a>
+        <a class="p-3 text-black" href="#objetivo">Objetivo</a>
+        <a class="p-3 text-black" href="#experiencia">Experiencia</a>
+        <a class="p-3 text-black" href="#estudios">Estudios</a>
+        <a class="p-3 text-black" href="#habilidades">Habilidades</a>
+      </nav>
+    </div>
+  </div>
+
+  <hr>
 
   <div class="container.fluid text-center c_nombre c_contenedor">
     <div class="row align-items-center">
@@ -31,36 +47,32 @@
 
   <hr>
 
-  <div class="container.fluid p-3">
-    <div class="row">
-      <nav>
-        <h1>Navegar por el contenido</h1>
-        <a class="p-3 text-black" href="#datos-personales">Datos Personales</a>
-        <a class="p-3 text-black" href="#objetivo">Objetivo</a>
-        <a class="p-3 text-black" href="#experiencia">Experiencia</a>
-        <a class="p-3 text-black" href="#estudios">Estudios</a>
-        <a class="p-3 text-black" href="#habilidades">Habilidades</a>
-      </nav>
-    </div>
-  </div>
-
-  <hr>
-
   <div class="container.fluid c_contenedor">
     <div class="row rdatos">
       <div class="col"><a name="datos-personales">
           <h3 id="datos-personales">Datos Personales</h3>
         </a></div>
     </div>
+
+    <hr>
+
     <div class="row">
-      <div class="col-xl-3 col-md-6 col-12 h5 cdatos">Correo</div>
-      <div class="col-xl-3 col-md-6 col-12 h5 ">andres.luque@gmail.com</div>
-      <div class="col-xl-3 col-md-6 col-12 h5 cdatos">Celular</div>
-      <div class="col-xl-3 col-md-6 col-12 h5 ">15-X1X1-X5X8</div>
-      <div class="col-xl-3 col-md-6 col-12 h5 cdatos">Nacionalidad</div>
-      <div class="col-xl-3 col-md-6 col-12 h5 ">Argentino</div>
-      <div class="col-xl-3 col-md-6 col-12 h5 cdatos">Provincia</div>
-      <div class="col-xl-3 col-md-6 col-12 h5 ">Buenos Aires</div>
+      <div class="col-xl-3 col-md-6 col-12">
+        <h6>Correo: </h6>
+        <h4>andres.luque@gmail.com</h4>
+      </div>
+      <div class="col-xl-3 col-md-6 col-12">
+        <h6>Celular: </h6>
+        <h4>15-X1X1-X5X8</h4>
+      </div>
+      <div class="col-xl-3 col-md-6 col-12">
+        <h6>Nacionalidad: </h6>
+        <h4>Argentino</h4>
+      </div>
+      <div class="col-xl-3 col-md-6 col-12">
+        <h6>Provincia: </h6>
+        <h4>Buenos Aires</h4>
+      </div>
     </div>
   </div>
 
@@ -72,11 +84,14 @@
           <h3 id="id-objetivo">Objetivo</h3>
         </a></div>
     </div>
+
+    <hr>
+
     <div>
       <div class="col">
-        <p><strong>En la actualidad me encuentro cursando argentina programa 4.0.
-            Busco desarrollar una app para consumir datos del sistema de la empresa,
-            con el fin de analizar la informacion para la toma de decisiones.</strong></p>
+        <p>En la actualidad me encuentro cursando argentina programa 4.0.
+          Busco desarrollar una app para consumir datos del sistema de la empresa,
+          con el fin de analizar la informacion para la toma de decisiones.</p>
       </div>
     </div>
   </div>
@@ -87,7 +102,9 @@
 
     <div class="row rdatos">
       <div class="col">
-        <a name="experiencia"><h3>Experiencia</h3></a>
+        <a name="experiencia">
+          <h3>Experiencia</h3>
+        </a>
       </div>
     </div>
 
@@ -95,7 +112,7 @@
 
     <div class="row">
 
-      
+
       <div class="col-xl-3 col-md-6 col-12 h5 ">
         <h4>Abril 2018 - Actualidad</h4>
         <h5>Distribuidora de Productos Heladeria</h5>
@@ -124,7 +141,7 @@
           <li>Datos: Estadisticas de flota</li>
         </ul>
       </div>
-     
+
       <div class="col-xl-3 col-md-6 col-12 h5 ">
         <h4>Abril 2003 - Marzo 2010</h4>
         <h5>Distribuidora de Repuestos Automotor</h5>
@@ -168,27 +185,27 @@
     <hr>
 
     <div class="row">
-      
+
       <div class="col-xl-3 col-md-6 col-12 h5 ">
         <h4>Enero 2023 - Actualidad</h4>
         <h5>Ministerio de Economia</h5>
         <h6>Argentina programa 4.0</h6>
         <h6>Primeros pasos desarrollo front-ent</h6>
       </div>
-      
+
       <div class="col-xl-3 col-md-6 col-12 h5 ">
         <h4>Enero 2016 - Diciembre 2018</h4>
         <h5>Universidad de Tres de Febrero</h5>
         <h6>Licenciatura en Administracion de Empresas</h6>
         <h6>Primer año completo</h6>
       </div>
-      
+
       <div class="col-xl-3 col-md-6 col-12 h5 ">
         <h4>Enero 2001 - Diciembre 2006</h4>
         <h5>IFTS Nº1 - Palermo</h5>
         <h6>Tecnico Superior en Analisis de Sistemas</h6>
       </div>
-      
+
       <div class="col-xl-3 col-md-6 col-12 h5 ">
         <h4>Enero 1987 - Diciembre 1993</h4>
         <h5>ENET Nº 27 - Hipolito Yrigoyen</h5>
@@ -209,19 +226,21 @@
         </a></div>
     </div>
 
+    <hr>
+
     <div class="row">
 
-      <div class="col-xl-3 col-md-6 col-12 h5">Tolerancia a la presión</div>
+      <div class="col-xl-3 col-md-6 col-12">Tolerancia a la presión</div>
 
-      <div class="col-xl-3 col-md-6 col-12 h5">Actitud positiva</div>
+      <div class="col-xl-3 col-md-6 col-12">Actitud positiva</div>
 
-      <div class="col-xl-3 col-md-6 col-12 h5">Administración del tiempo</div>
+      <div class="col-xl-3 col-md-6 col-12">Administración del tiempo</div>
 
-      <div class="col-xl-3 col-md-6 col-12 h5">Responsabilidad</div>
+      <div class="col-xl-3 col-md-6 col-12">Responsabilidad</div>
 
-      <div class="col-xl-3 col-md-6 col-12 h5">Creatividad</div>
+      <div class="col-xl-3 col-md-6 col-12">Creatividad</div>
 
-      <div class="col-xl-3 col-md-6 col-12 h5">Colaboración</div>
+      <div class="col-xl-3 col-md-6 col-12">Colaboración</div>
 
     </div>
 
